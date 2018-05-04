@@ -7,6 +7,7 @@ https://developers.google.com/android/reference/com/google/android/gms/common/Ac
 
 En el AndroidManifest.xml tenemos que darle permisos a la app para que pueda ver las cuentas:
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission
         android:name="android.permission.MANAGE_ACCOUNTS"
         tools:ignore="ProtectedPermissions" />
