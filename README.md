@@ -5,7 +5,22 @@ Vamos a ver como hacer un login mediante nuestras cuentas añadidas al teléfono
 
 https://developers.google.com/android/reference/com/google/android/gms/common/AccountPicker
 
-Declaramos:
+En el AndroidManifest.xml tenemos que darle permisos a la app para que pueda ver las cuentas:
+
+    <uses-permission
+        android:name="android.permission.MANAGE_ACCOUNTS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.AUTHENTICATE_ACCOUNTS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.ACCOUNT_MANAGER"
+        tools:ignore="ProtectedPermissions" />
+
+Pasamos a la MainActivity y declaramos:
 
     private static final int PICK_ACCOUNT_REQUEST = 0;
     
