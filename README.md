@@ -59,6 +59,6 @@ Al ejecutarlo obtendríamos las cuentas con extensión "com.google" o no, pero f
         }
     }
 
-Con todo esto ya obtendríamos las cuentas vínculadas en nuestro teléfono y podríamos hacer login desde nuetsra app.
+Con todo esto ya obtendríamos las cuentas vínculadas en nuestro teléfono y podríamos hacer login desde nuestra app.
 
-# Se puede probar a cambiar la extensión del método "com.google" por otro para ver si este indica cuentas ajenas a Google.
+##Se puede probar a cambiar la extensión del método "com.google" por otro, para ver si este indica cuentas ajenas a Google.
